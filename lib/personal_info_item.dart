@@ -28,7 +28,7 @@ class PersonalInfoItem extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(height: 5c),
+        SizedBox(height: 5),
         Text(
           data.value,
           style: TextStyle(
