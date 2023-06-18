@@ -1,12 +1,10 @@
-import 'package:company_app/personal_page.dart';
+import 'package:company_app/monthly_represpective_page.dart';
 import 'package:flutter/material.dart';
-
-import 'news_page.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      home: NewsPage(),
+    const MaterialApp(
+      home: MonthlyReprespectivePage(),
     ),
   );
 }
